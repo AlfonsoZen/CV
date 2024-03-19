@@ -24,7 +24,7 @@ body {
 .right-side {
   width: 830px;
   padding-left: 80px;
-  padding-right: 200px;
+  padding-right: 100px;
   padding-top: 68px;
   padding-bottom: 68px;
 }
@@ -48,6 +48,7 @@ body {
 .bio-about {
   font-size: 14px;
   line-height: 1.714;
+  text-align: justify;
 }
 
 .bio-about {
@@ -179,6 +180,18 @@ body {
 .contacts-link:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+.contacts-media {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding: 20px 100px 0 60px;
+}
+
+.contacts-media svg {
+  width: 40px;
 }
 
 .widget-link {
