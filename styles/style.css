@@ -68,6 +68,11 @@ body {
   line-height: 24px;
 }
 
+.language-link {
+  padding-left: 15px;
+  color: #ffffff;
+}
+
 .projects-link:hover {
   color: #ff6b08;
 }
